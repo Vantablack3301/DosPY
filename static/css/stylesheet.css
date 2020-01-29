@@ -1,0 +1,17 @@
+.drop {
+    background-color:rgb(255, 0, 0);
+    width:3px;
+    position:absolute;
+}
+
+body {
+    background-color:black;
+    overflow:hidden;
+}
+.dosbox-container {
+	width: 100%;
+	height: 100%;
+}
+.dosbox-container>.dosbox-overlay {
+	background: url("{{ url_for('static', filename='ect/DOOM.png') }}");
+}
