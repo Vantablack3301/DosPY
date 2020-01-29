@@ -3,6 +3,10 @@ app = Flask('app')
 
 @app.route('/')
 def hello_world():
+    return ("add a /{game name} to the url to play that dos game")
+
+@app.route('/doom')
+def doom():
   return render_template('index.html')
 
 @app.route('/wolfenstein')
