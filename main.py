@@ -5,4 +5,8 @@ app = Flask('app')
 def hello_world():
   return render_template('index.html')
 
+@app.route('/in-dev')
+def beta_world():
+  return render_template('index[beta].html')
+
 app.run(host = '0.0.0.0')

@@ -5,25 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>school work</title>
-	<style type="text/css">
-		.dosbox-container {
-			width: 100%;
-			height: 100%;
-            background: linear-gradient(to bottom, #202020, #111119);
-		}
-
-		.dosbox-container>.dosbox-overlay {
-			background: url("{{ url_for('static', filename='ect/DOOM.png') }}");
-		}
-
-		p {
-			color: white;
-			margin-left: 40px;
-		}
-        body{
-            background: black;
-        }
-	</style>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/stylesheet.css')}}">
 </head>
 
 <body>
@@ -49,9 +31,6 @@ Strafe: A, D;</p>
          }
        });
      </script>
-     <p><b>notice: </b>this is an in development site. there are still many bugs (particularly with css) that have yet to be worked out
-
-     <b>THIS IS NOT A PRIVATE SITE, </b> almost anything done on this site will be collected into the server log and kept until the server closes after use. to not share personal info on this site</p>
 
    </body>
 </html>
