@@ -5,6 +5,10 @@ app = Flask('app')
 def hello_world():
   return render_template('index.html')
 
+@app.route('/wolfenstein')
+def Wolf3D():
+    return render_template('wolf.html')
+
 @app.route('/in-dev')
 def beta_world():
   return render_template('index[beta].html')
