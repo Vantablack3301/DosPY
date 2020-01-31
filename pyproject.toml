@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "doompy"
+name = "dospy"
 version = "0.1.0"
-description = ""
+description = "a version of dos to play unblocked games at school"
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
