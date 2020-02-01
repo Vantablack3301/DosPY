@@ -9,6 +9,8 @@ def hello_world():
     doom
     doom2
     wolfenstein
+    castlevania
+    prince of persia
 
     planned for later implementation:
     elderscrolls arena
