@@ -42,7 +42,7 @@ Strafe: A, D;</p>
        var dosbox = new Dosbox({
          id: "dosbox",
          onload: function (dosbox) {
-           dosbox.run("{{ url_for('static', filename='ect/castlevania.zip') }}", "./castlevania/CASTLE.EXE");
+           dosbox.run("{{ url_for('static', filename='ect/princeOfPersia.zip') }}", "./POP1.4/PRINCE.EXE");
          },
          onrun: function (dosbox, app) {
            console.log("App '" + app + "' is runned");

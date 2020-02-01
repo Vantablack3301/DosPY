@@ -11,8 +11,8 @@ def hello_world():
     wolfenstein
 
     planned for later implementation:
-    castlevania
-    quake
+    elderscrolls arena
+    elderscrolls daggerfall 
 
     """)
 
@@ -31,6 +31,10 @@ def doom():
 @app.route('/doom2')
 def doom2():
     return render_template('doom2.html')
+
+@app.route('/prince_of_persia')
+def POP():
+    return render_template("prince.html")
 
 @app.route('/quake')
 def quake():
