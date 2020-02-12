@@ -42,7 +42,7 @@ Strafe: A, D;</p>
        var dosbox = new Dosbox({
          id: "dosbox",
          onload: function (dosbox) {
-           dosbox.run("{{ url_for('static', filename='ect/quake.zip') }}", "./QLAUNCH.EXE");
+           dosbox.run("{{ url_for('static', filename='ect/quake.zip') }}", "./QUAKE.EXE");
          },
          onrun: function (dosbox, app) {
            console.log("App '" + app + "' is runned");
