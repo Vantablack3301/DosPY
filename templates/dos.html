@@ -13,7 +13,7 @@
 		}
 
 		.dosbox-container>.dosbox-overlay {
-			background: url("{{ url_for('static', filename='ect/castlevania.jpg') }}");
+			background: url("https://regmedia.co.uk/2018/10/01/ms-dos_logo.png");
 		}
 
 		p {
@@ -42,7 +42,7 @@ Strafe: A, D;</p>
        var dosbox = new Dosbox({
          id: "dosbox",
          onload: function (dosbox) {
-           dosbox.run("{{ url_for('static', filename='ect/castlevania.zip') }}", "./castlevania/CASTLE.EXE");
+           dosbox.run("{{ url_for('static', filename='ect/D:.zip') }}", "./main");
          },
          onrun: function (dosbox, app) {
            console.log("App '" + app + "' is runned");

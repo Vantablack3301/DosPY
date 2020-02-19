@@ -8,6 +8,7 @@ def hello_world():
     right now supported games include:
     doom
     doom2
+    dosbox
     wolfenstein
     castlevania
     prince of persia
@@ -15,6 +16,11 @@ def hello_world():
     planned for later implementation:
     elderscrolls arena
     elderscrolls daggerfall 
+
+
+
+    news:
+    new additions to dospy include fixed images in css, added support for raw dosbox, and fixed some broken games
 
     """)
 
@@ -28,11 +34,15 @@ def castlevania():
 
 @app.route('/doom')
 def doom():
-  return render_template('index.html')
+  return render_template('doom.html')
 
 @app.route('/doom2')
 def doom2():
     return render_template('doom2.html')
+
+@app.route('/dos')
+def dosPanel():
+    return render_template('dos.html')
 
 @app.route('/prince_of_persia')
 def POP():
