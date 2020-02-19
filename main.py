@@ -60,4 +60,4 @@ def Wolf3D():
 def beta_world():
   return render_template('index[beta].html')
 
-app.run(host = '0.0.0.0')
+app.run(debug=True, host = '0.0.0.0')
