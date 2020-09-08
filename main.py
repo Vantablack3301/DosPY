@@ -9,13 +9,12 @@ def hello_world():
     doom
     doom2
     dosbox
+    mortal kombat
     wolfenstein
     castlevania
     prince of persia
 
-    planned for later implementation:
-    elderscrolls arena
-    elderscrolls daggerfall 
+    planned for later implementation: 
 
 
 
@@ -28,9 +27,6 @@ def hello_world():
 def castlevania():
     return render_template('castlevania.html')
 
-#@app.route('/daggerfall')
-#def daggerfall():
-#    return render_template('daggerfall.html')
 
 @app.route('/doom')
 def doom():
@@ -43,6 +39,10 @@ def doom2():
 @app.route('/dos')
 def dosPanel():
     return render_template('dos.html')
+
+@app.route('/mortalkombat')
+def kombat():
+    return render_template('MortalKombat.html')
 
 @app.route('/prince_of_persia')
 def POP():
@@ -60,4 +60,5 @@ def Wolf3D():
 def beta_world():
   return render_template('index[beta].html')
 
-app.run(debug=True, host = '0.0.0.0')
+if __name__ == "__main__":
+  app.run( "0.0.0.0", 8080, debug=True)
