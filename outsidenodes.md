@@ -1,0 +1,2 @@
+#outside nodes
+with these new outside nodes connected to a github repo, well now be able to have enerything hosted on other services like github and well be able to shrink down this repl. well have some tests with mortal kombat but the only possible downside would be slower loading times. other than that you could host a repo and redirect the service twords it. this is an open source project afterall
